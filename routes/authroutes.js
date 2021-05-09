@@ -22,7 +22,7 @@ app.get(
   {
     req.logOut();
     res.send('Logged Out!');
-    red.send(req.user);
+    res.send(req.user);
   }
 )
 
