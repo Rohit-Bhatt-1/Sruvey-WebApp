@@ -21,8 +21,9 @@ app.get(
   (req, res) =>
   {
     req.logOut();
-    res.send('Logged Out!');
+    console.log('Logged Out!');
     res.send(req.user);
+    return;
   }
 )
 
