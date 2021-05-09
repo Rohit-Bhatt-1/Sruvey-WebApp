@@ -23,7 +23,7 @@ app.use(passport.session());
 
 mongoose.connect
 (
-  keys.mongoURI,
+  keys.mongoURL,
   {
     useNewUrlParser : true,
     useCreateIndex : true,
